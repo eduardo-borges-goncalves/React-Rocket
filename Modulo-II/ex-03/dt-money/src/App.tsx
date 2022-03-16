@@ -1,14 +1,14 @@
+import styled from "styled-components"
+import {GlobalStyle} from "./styles/global"
 
-function App() {
+export function App() {
   return (
     <div >
-      <header >
-      
-        <h1>oi edu </h1>
 
-      </header>
+      <h1>Oi Edu </h1>
+       <GlobalStyle/>
+
     </div>
   );
 }
 
-export default App;
